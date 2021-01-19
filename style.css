@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(55, 35, 14);
+}
+nav ul li {
+    display:inline;
+}
+/* section {
+    color: rgb(207, 66, 66);
+}
+div {
+    color: red;
+}
+ul {
+    color:rgb(207, 66, 66) */
+}
+mark {
+    font-family: 'Lobster', cursive;
+    color: rgb(184, 128, 60);
+}
+data {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(52, 48, 43);
+}
