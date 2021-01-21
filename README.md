@@ -16,3 +16,5 @@ https://www.w3schools.com/js/js_htmldom_nodes.asp helped me on node elements
 https://www.w3schools.com/tags/tag_mark.asp helped me with what highlights are.
 
 https://www.w3schools.com/cssref/css3_pr_background-size.asp helped me with not repeating a background image
+
+https://stackoverflow.com/questions/49906604/how-to-move-bullet-points-in-css helped me with list style postions

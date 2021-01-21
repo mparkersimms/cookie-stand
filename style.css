@@ -9,6 +9,169 @@ body {
     min-width: 760px;
     margin: auto;
 }
+header {
+    height: 100px;
+    text-align: center;
+    max-width: 960px;
+    min-width: 760px;
+    
+}
+nav{
+    width:100%;
+    max-width: 960px;
+    min-width: 760px;
+}
+nav ul li {
+    display:inline;
+    font-size: 30pt;
+    margin: auto;
+    padding:0 50px;
+    vertical-align: middle;
+    
+}
+#one {
+    background-image:url(salmon.png);
+    background-color: rgb(228, 186, 135);
+    background-position: center;
+    background-size:auto;
+    background-repeat: no-repeat;
+    height:300px;
+}
+#one p {
+    position: relative;
+    font-size: 72pt;
+    text-shadow: -1px 0 rgb(216, 138, 43), 1px 0 rgb(216, 138, 43), 1px 0 rgb(216, 138, 43), -1px 0 rgb(216, 138, 43);
+    vertical-align: middle;
+    padding-top: 100px;
+    margin: auto;
+    text-align: center;
+    font-weight: bolder;
+}
+section#two {
+    text-align: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin: 20px 20px;
+    margin: auto;    
+}
+#two {
+    background-color: rgb(212, 159, 95);
+}
+#two div:first-child {
+    text-align: center;
+    justify-content: center;
+    
+}
+#two div p {
+    vertical-align: middle;
+    font-size: 60pt;
+}
+#two img {
+    width: 470px;
+    height: 380px;
+    margin: auto 20px auto 0;
+}
+
+
+/* section#two img {
+    background-color: black;
+} */
+
+#three {
+    text-align: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    height: 480px;
+    background-color: rgb(187, 127, 15);
+ }
+ #three p {
+     font-size: 50pt;;
+ }
+ #four {
+     background-color: rgb(163, 74, 22);
+     color: rgb(68, 37, 7);
+     font-size: 20pt;
+     height:fit-content;
+     
+ }
+#four div:first-child {
+    text-align: center;
+    font-size: 60pt;
+    font-weight: bold;
+    margin-top: 0;
+    text-shadow: -1px 0 rgb(216, 138, 43), 1px 0 rgb(216, 138, 43), 1px 0 rgb(216, 138, 43), -1px 0 rgb(216, 138, 43);
+}
+#four div:nth-of-type(2n){
+    display: inline-block;
+    width:50%;
+
+}
+#four div:nth-of-type(2n) h3 {
+    font-size: 50pt;
+    margin-top: 0;
+    margin-bottom:0;
+    text-align: center;
+}
+#four ul{
+    text-align: center;
+   list-style-position: inside;
+   list-style-type: none;
+   font-size: 28pt;
+}
+#four div:nth-of-type(3n){
+    display: inline-block;
+    float: right;
+    width:50%;
+}
+#four img {
+    margin: 30px 30px;
+    vertical-align: middle;
+    width:350px;
+    height:300px;
+}
+#four div:nth-of-type(4n){
+    width:100%;
+}
+#four div:nth-of-type(4n) h4{
+    text-align: center;
+    font-size: 35pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#shirt #cutter {
+    justify-content: left;
+    float: left;
+    display: inline;
+    height: 480px;
+
+}
+#five{
+    background-color: rgb(73, 40, 40);
+    color:rgb(194, 178, 159);
+    position: relative;
+}
+#five p {
+    font-size: 62pt;
+    width:400px;
+    margin-right:0px;
+    margin-top: 0px;
+    display: inline;
+}
+button {
+    width:150px;
+    height: 50px;
+}
+#five textarea{
+    width:200px;
+    height:200px;
+    position: absolute;
+    left: 750px;
+    top:-5px;
+    z-index: 5;
+}
 table {
     border:rgb(216, 138, 43) solid thin;
 }
@@ -22,37 +185,10 @@ th {
 td {
     border:rgb(216, 138, 43) solid thin;
 }
-
-header {
-    background-image:url(salmon.png);
-    background-position: center;
-    background-size:auto;
-    background-repeat: no-repeat;
-    height: 300px;
-    text-align: center;
-    max-width: 960px;
-    min-width: 760px;
-    
-}
-h1 {
-    font-size: 72pt;
-    text-shadow: -1px 0 rgb(216, 138, 43), 1px 0 rgb(216, 138, 43), 1px 0 rgb(216, 138, 43), -1px 0 rgb(216, 138, 43);
-    margin-bottom: 25px;
-}
 h2 {
     font-size: 32pt;
 }
-nav{
-    width:100%;
-    max-width: 960px;
-    min-width: 760px;
-}
-nav ul li {
-    display:inline;
-    font-size: 30pt;
-    margin: auto;
-    
-}
+
 
 a {
     color:rgb(85, 49, 12);
@@ -66,13 +202,8 @@ main {
     max-width: 960px;
     min-width: 760px;
 }
-section {
-    text-align: center;
-    /* display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    margin: 20px 20px; */
-    margin: auto;
+
+one {
     
 }
 div {
