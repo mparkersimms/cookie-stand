@@ -16,7 +16,6 @@ tableHead.appendChild(headElement);
 
 table.appendChild(tableBody);
 
-
 function Store(city, minCusto, maxCusto, avgCookies) {
     this.name = city;
     this.minCust = minCusto;
@@ -55,36 +54,24 @@ var footCell = document.createElement('td');
 footRow.appendChild(footCell);
 footCell.textContent = 'Totals';
 
-
 var seattle = new Store('Seattle', 23, 65, 6.7);
 seattle.randomNumberOfCustomers();
-console.log(seattle);
-console.log(seattle.avgCookiePerHour);
 
 var tokyo = new Store('Tokyo',3,24,1.2);
 tokyo.randomNumberOfCustomers();
-console.log(tokyo);
-console.log(tokyo.avgCookiePerHour);
 
 var dubai = new Store('Dubai',11,38,3.7);
 dubai.randomNumberOfCustomers();
-console.log(dubai);
-console.log(dubai.avgCookiePerHour);
 
 var paris = new Store('Paris',20,28,2.3);
 paris.randomNumberOfCustomers();
-console.log(paris);
-console.log(paris.avgCookiePerHour);
 
 
 var lima = new Store('Lima',2,16,4.6);
 lima.randomNumberOfCustomers();
-console.log(lima);
-console.log(lima.avgCookiePerHour);
 
 for (var k = 0; k < hoursOfOperation.length - 1; k++){
     var foot = document.createElement('td');
     footRow.appendChild(foot);
     foot.textContent = (seattle.avgCookiePerHour[k] + tokyo.avgCookiePerHour[k] + dubai.avgCookiePerHour[k] + paris.avgCookiePerHour[k] + lima.avgCookiePerHour[k]);
-
 }
