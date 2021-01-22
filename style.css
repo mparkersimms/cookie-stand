@@ -5,21 +5,31 @@ body {
     background-color: bisque;
     font-family: 'Times New Roman', Times, serif;
     color:rgb(85, 49, 12);
-    max-width: 960px;
+    max-width: 1060px;
     min-width: 760px;
     margin: auto;
+    
+}
+div.wrapper {
+    max-width: 960px;
+    margin:auto;
+    height : 800px;
+    overflow-y: scroll;
 }
 header {
     height: 100px;
     text-align: center;
-    max-width: 960px;
+    max-width: 1060px;
     min-width: 760px;
-    
+    background-color: #585651;
+    color: #ddab79;
 }
 nav{
     width:100%;
     max-width: 960px;
     min-width: 760px;
+    vertical-align: middle;
+    padding-top: 10px;
 }
 nav ul li {
     display:inline;
@@ -27,6 +37,7 @@ nav ul li {
     margin: auto;
     padding:0 50px;
     vertical-align: middle;
+    
     
 }
 #one {
@@ -36,6 +47,8 @@ nav ul li {
     background-size:auto;
     background-repeat: no-repeat;
     height:300px;
+    max-width: 1060px;
+    /* margin:opx; */
 }
 #one p {
     position: relative;
@@ -168,7 +181,7 @@ button {
     width:200px;
     height:200px;
     position: absolute;
-    left: 750px;
+    left: 720px;
     top:-5px;
     z-index: 5;
 }
@@ -199,8 +212,9 @@ li a:hover {
     color:rgb(216, 138, 43);
 }
 main {
-    max-width: 960px;
+    max-width: 1060px;
     min-width: 760px;
+    margin:auto;
 }
 
 one {
@@ -218,4 +232,22 @@ mark {
 data {
     font-family: Arial, Helvetica, sans-serif;
     color:rgb(52, 48, 43);
+}
+footer {
+    height:100px;
+    max-width:1060px;
+    min-width:760px;
+    background-color: #585651;
+    color: #ddab79;
+}
+form {
+    width:fit-content;
+    margin:auto;
+}
+fieldset {
+    text-align: right;
+    font-weight: bold;
+}
+fieldset span{
+    font-size: 20pt;
 }
