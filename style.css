@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body {
-    background-color: bisque;
+    background-color: rgb(252, 239, 223);
     font-family: 'Times New Roman', Times, serif;
     color:rgb(85, 49, 12);
     max-width: 1060px;
@@ -17,28 +17,85 @@ div.wrapper {
     overflow-y: scroll;
 }
 header {
-    height: 100px;
-    text-align: center;
+    height: 120px;
+    /* text-align: center; */
     max-width: 1060px;
-    min-width: 760px;
+    min-width: 960px;
     background-color: #585651;
     color: #ddab79;
+    /* vertical-align: middle; */
+    /* overflow: hidden; */
+    
 }
-nav{
+#logo {
+    display: inline-block;
+    width:300px;
+    height:120px;
+    
+}
+#logo img {
+    width:100%;
+    height:auto;
+}
+div#nav {
+    border: thick  solid rgb(212, 44, 44);
+    display: inline-block; 
+    height:120px;
+    width:500px;
+    margin-top: 10px;
+    
+
+}
+div#nav1 {
+    border: thick  solid rgb(212, 44, 44);
+    display: inline-block; 
+    text-align: right;
+}
+div#nav2 {
+    border: thick  solid rgb(212, 44, 44);
+    display: inline-block; 
+}
+
+/* div #nav1 {
+    border: thin black solid;
+    /* display: inline-block; 
+    max-width:760px;
+    min-width: 100px;
+    height:100px;
+    text-align: right;
+    position: relative;
+    float: right;
+    padding-right: 10px;
+    padding-top:10px;
+    margin-right: 50px;
+
+} 
+/* nav{
+    display: inline-block;
     width:100%;
     max-width: 960px;
     min-width: 760px;
     vertical-align: middle;
     padding-top: 10px;
+    margin:auto;
+} */
+/* #nav1 ul {
+    padding:0;
+    margin: 0;
+    list-style: none;
+    
 }
-nav ul li {
+
+#nav1 ul li {
+    columns: 2;
     display:inline;
-    font-size: 30pt;
-    margin: auto;
-    padding:0 50px;
-    vertical-align: middle;
+    font-size: 15pt;  */
     
-    
+/* }  */
+main {
+    max-width: 100%;
+    min-width: 760px;
+    margin:auto;
 }
 #one {
     background-image:url(salmon.png);
@@ -187,6 +244,8 @@ button {
 }
 table {
     border:rgb(216, 138, 43) solid thin;
+    margin:auto;
+
 }
 /* thead {
     border:rgb(216, 138, 43) solid thin;
@@ -211,15 +270,8 @@ a {
 li a:hover {
     color:rgb(216, 138, 43);
 }
-main {
-    max-width: 1060px;
-    min-width: 760px;
-    margin:auto;
-}
 
-one {
-    
-}
+
 div {
     align-items: center;
 }
@@ -233,13 +285,7 @@ data {
     font-family: Arial, Helvetica, sans-serif;
     color:rgb(52, 48, 43);
 }
-footer {
-    height:100px;
-    max-width:1060px;
-    min-width:760px;
-    background-color: #585651;
-    color: #ddab79;
-}
+
 form {
     width:fit-content;
     margin:auto;

@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html>
     <head>  
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style2.css">
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li>
-                        <a href='index.html'>Home Page</a>
-                    </li>
-                    <li>
-                        <a href='sales.html'>Sales Page</a>
-                    </li>
-                </ul>
-            </nav>              
+        <header>            
+            <div><div id="logo"></div>
+            <p>Pat's Salmon Cookies</p>
+            </div>
+            <div id ="nav">
+            <div id='nav1'>
+            
+                <span><a href='index.html'>Home Page </a>
+                </span>
+                   
+                <span><a href='sales.html'>Sales Page </a></span>
+                    
+                </div>
+                <div id='nav2'>       
+                    <span><a href='#four'> Store Locations </a>
+                    </span>
+
+                <span><a href='#three'>Salmon Shop </a></span>
+               
+            </div>    
+            </div>        
         </header>
+        <div class="greyBar"></div>
         <main>
             <section id="one">
-                <p><a href='index.html'>Pat’s Salmon Cookies</a></p>
-                <!-- <img src='salmon.png'>                -->
+                <h1>Sales Page</h1>
+            <hr>
             </section>
             <section id="profile">
                 
             </section>
-            <section>
+            <hr>
+            <section id="six">
+                <h2>New Cookie Stand </h2>
+                
                 <form id='newstore'>
                     <fieldset>
-                        <span>New Cookie Stand </span></br>
                         <label>Name</label>
                         <input type='text' name='storename'></br>
                         <label>Minimum Customers / Hour</label>
@@ -40,10 +54,20 @@
                     </fieldset>
                 </form>
             </section>
+            <div class="greyBar"></div>
         </main>
         <script src="app4.js"> </script>
     </body>
-   
+    <footer>
+        <div class="footerBorder">
+          <div class="greyBar2"></div>
+          <img src="images/small-logo.png" alt="">
+          <div class="greyBar2"></div>
+        </div>
+        <p>Pat's Salmon Cookies&copy; 2020 * All Rights Reserved.</p>
+        <p>Proudly published by Matthew Simms</p>
+    
+      </footer>
 
 
 </html>
